@@ -51,6 +51,41 @@
 // }
 // console.log(extractCurrencyValue("$120"));
 
+////////////////////////////////////////////////
 
+//str->obj//////////////////////////////////////
+
+// function inObject(str) {
+//    let newObject = {}
+// let first = str.slice(0);
+// let last = str.substr(str.lenght - 1);
+// return newObject = {
+//     firstSymbol: first,
+//     lastSymbol: last
+// };
+// };
+// console.log(inObject().newObject())
+
+// inObject("Строка")
 
 ////////////////////////////////////////////////
+
+//find->true/false//////////////////////////////
+
+// let firstStr = "Говно";
+// let secondStr = firstStr;
+
+// function find(firstStr, secondStr) {
+//   secondStr.slice(0, 10);
+
+//   return firstStr.includes(secondStr);
+// }
+
+// console.log(find(firstStr, secondStr));
+
+////////////////////////////////////////////////
+
+
+
+
+
