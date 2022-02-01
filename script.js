@@ -57,17 +57,16 @@
 
 // function inObject(str) {
 //    let newObject = {}
-// let first = str.slice(0);
-// let last = str.substr(str.lenght - 1);
+// let first = str.charAt(0);
+// let last = str.substr(-1)
 // return newObject = {
 //     firstSymbol: first,
 //     lastSymbol: last
 // };
 // };
-// console.log(inObject().newObject())
+// console.log(inObject("Строка"))
 
-// inObject("Строка")
-
+//РАБОТАЕт
 ////////////////////////////////////////////////
 
 //find->true/false//////////////////////////////
@@ -85,7 +84,26 @@
 
 ////////////////////////////////////////////////
 
+//yourFunc('abcdefgh') // 'CdeF'////////////////
+
+// let str = "abcdef";
+
+// function cutTheStr(str) {
+//   let newStr = str;
+//   newStr = newStr.substring(2, newStr.lenght);
+
+//   newStr = newStr[0].toUpperCase() + newStr.substring(1); //Заглавная первая буква
+ 
+//   newStr = newStr.slice(0, -2) //Без 2 последних букв
+
+//   newStr = newStr.substring(0) + newStr.substr(-1).toUpperCase() //последняя загл буква
+  
+// newStr = (newStr.slice(0, -2)) + (newStr.slice(-1)) // убирает предпоследний символ
+
+//   return newStr;
+// }
+// console.log(cutTheStr("abcdefgh"));
 
 
-
-
+//РАБОТАЕТ
+////////////////////////////////////////////////
