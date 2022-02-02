@@ -71,7 +71,7 @@
 
 //find->true/false//////////////////////////////
 
-// let firstStr = "Говно";
+// let firstStr = "";
 // let secondStr = firstStr;
 
 // function find(firstStr, secondStr) {
@@ -93,17 +93,16 @@
 //   newStr = newStr.substring(2, newStr.lenght);
 
 //   newStr = newStr[0].toUpperCase() + newStr.substring(1); //Заглавная первая буква
- 
+
 //   newStr = newStr.slice(0, -2) //Без 2 последних букв
 
 //   newStr = newStr.substring(0) + newStr.substr(-1).toUpperCase() //последняя загл буква
-  
+
 // newStr = (newStr.slice(0, -2)) + (newStr.slice(-1)) // убирает предпоследний символ
 
 //   return newStr;
 // }
 // console.log(cutTheStr("abcdefgh"));
-
 
 //РАБОТАЕТ
 ////////////////////////////////////////////////
@@ -126,5 +125,10 @@
 // let str = "1234,567"
 
 // alert(truncate(str, 6));
+
+///////////////////////////////////////////////
+
+//Операции с массивами/////////////////////////
+
 
 ///////////////////////////////////////////////
