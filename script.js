@@ -130,5 +130,35 @@
 
 //Операции с массивами/////////////////////////
 
+// let styles = ["Джаз", "Блюз"]
+// styles.push("Рок-н-Ролл")
+// styles[Math.floor((styles.length)/2)] ="Классика"
+// console.log(styles.shift())
+// styles.unshift("Рэп", "Рэгги")
+// console.log(styles)
 
+///////////////////////////////////////////////
+
+//Сумма введённых чисел////////////////////////
+// function sumInput() {
+//   let arrNumbers = [];
+//   while (true) {
+//     let value = prompt("значение:", "");
+//     if ((value == "") || (value == null)) {
+//       break;
+//     }
+//     arrNumbers.push(value)
+//   }
+//   console.log(arrNumbers)
+
+//   let i = 0
+//   for(let sum of arrNumbers) {
+//      i +=sum
+//   }
+//  return  console.log(i)
+
+// }
+
+// sumInput();
+//Не складывает
 ///////////////////////////////////////////////
