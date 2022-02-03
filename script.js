@@ -162,3 +162,21 @@
 // sumInput();
 //Не складывает
 ///////////////////////////////////////////////
+
+//Переведите текст вида border-left-width в borderLeftWidth//
+
+// function camelize(str) {
+//  let newStr = str.split("-");
+//  console.log(newStr)
+//  let result = newStr.forEach(newStr.toUpperCase() + str.slice(1))
+
+ 
+//  console.log(result)
+// return result
+// }
+
+// camelize("my-short-string");
+
+//НЕ робит
+///////////////////////////////////////////////
+
