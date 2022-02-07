@@ -170,7 +170,6 @@
 //  console.log(newStr)
 //  let result = newStr.forEach(newStr.toUpperCase() + str.slice(1))
 
- 
 //  console.log(result)
 // return result
 // }
@@ -180,3 +179,19 @@
 //НЕ робит
 ///////////////////////////////////////////////
 
+//Фильтрация по диапазону//////////////////////
+
+// function filterRange(arr, a, b) {
+//   console.log(arr.length);
+//  console.log(arr.isArray([]))
+//   arr.filter(arr.lenght >= a);
+//   arr.filter(arr.lenght <= b);
+//   let filtered = arr;
+//   return filtered;
+// }
+
+// filterRange([1, 2, 3, 4, 5, 6, 7, 8], 1, 5);
+
+
+// Не работает
+///////////////////////////////////////////////
