@@ -181,15 +181,15 @@
 
 //Фильтрация по диапазону//////////////////////
 
-// function filterRange(arr, a, b) {
-//   console.log(arr.length);
-//  console.log(arr.isArray([]))
-//   arr.filter((arr.lenght >= a) && arr.filter(arr.lenght <= b));
-//   let filtered = arr;
-//   return filtered;
-// }
+function filterRange(arr, a, b) {
+  console.log(arr.length);
+ 
+  arr.filter((arr.lenght >= a) && arr.filter(arr.lenght <= b));
+  let filtered = arr;
+  return console.log(filtered);
+}
 
-// filterRange([1, 2, 3, 4, 5, 6, 7, 8], 1, 5);
+filterRange([1, 2, 3, 4, 5, 6, 7, 8], 1, 5);
 
 // Не работает
 ///////////////////////////////////////////////
