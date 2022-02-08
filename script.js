@@ -184,8 +184,7 @@
 // function filterRange(arr, a, b) {
 //   console.log(arr.length);
 //  console.log(arr.isArray([]))
-//   arr.filter(arr.lenght >= a);
-//   arr.filter(arr.lenght <= b);
+//   arr.filter((arr.lenght >= a) && arr.filter(arr.lenght <= b));
 //   let filtered = arr;
 //   return filtered;
 // }
