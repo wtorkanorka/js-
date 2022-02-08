@@ -168,7 +168,7 @@
 // function camelize(str) {
 //  let newStr = str.split("-");
 //  console.log(newStr)
-//  let result = newStr.forEach(newStr.toUpperCase() + str.slice(1))
+//  let result = newStr.map(newStr[0].toUpperCase() + newStr.slice(1))
 
 //  console.log(result)
 // return result
