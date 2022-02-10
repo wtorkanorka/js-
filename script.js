@@ -181,15 +181,16 @@
 
 //Фильтрация по диапазону//////////////////////
 
-function filterRange(arr, a, b) {
-  console.log(arr.length);
- 
-  arr.filter((arr.lenght >= a) && arr.filter(arr.lenght <= b));
-  let filtered = arr;
-  return console.log(filtered);
-}
+// function camelize(str) {
+//  let newStr = str.split("-");
+//  console.log(newStr)
+//  let result = newStr.map(newStr[0].toUpperCase() + newStr.slice(1))
 
-filterRange([1, 2, 3, 4, 5, 6, 7, 8], 1, 5);
+//  console.log(result)
+// return result
+// }
+
+// camelize("my-short-string");
 
 // Не работает
 ///////////////////////////////////////////////
@@ -214,7 +215,6 @@ filterRange([1, 2, 3, 4, 5, 6, 7, 8], 1, 5);
 
 ///////////////////////////////////////////////
 
-
 //Трансформировать в массив имён///////////////
 // let vasya = { name: "Вася", age: 25 };
 // let petya = { name: "Петя", age: 30 };
@@ -226,4 +226,44 @@ filterRange([1, 2, 3, 4, 5, 6, 7, 8], 1, 5);
 
 // alert( names );
 //НЕ работает
+///////////////////////////////////////////////
+
+//Сумма свойств объекта////////////////////////
+
+
+// let salaries = {
+//   John: 100,
+//   Pete: 300,
+//   Mary: 250,
+//   Gary: 250,
+// };
+
+// function sumSalaries(salaries) {
+//   let sum = 0;
+
+//   for (let salarie of Object.values(salaries)) {
+//     sum += salarie;
+//   }
+//   return sum;
+// }
+
+// alert(sumSalaries(salaries));
+
+
+//Работает
+///////////////////////////////////////////////
+
+//Подсчёт количества свойств объекта///////////
+// let user = {
+//     name: 'John',
+//     age: 30,
+//     ages: 30
+//   };
+
+// function count(obj) {
+// return console.log (Object.keys(user).length)
+
+// }
+// count(user)
+
 ///////////////////////////////////////////////
