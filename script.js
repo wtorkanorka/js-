@@ -267,3 +267,97 @@
 // count(user)
 
 ///////////////////////////////////////////////
+
+
+//Деструктурирующее присваивание///////////////
+// let user = {
+//     name: "John",
+//     years: 30
+//   };
+
+// let {name, years: age, isAadmin = false} = user
+// alert(name)
+// alert(age)
+// alert(isAdmin)
+///////////////////////////////////////////////
+
+//Максимальная зарплата////////////////////////
+// let salaries = {
+//     "John": 100,
+//     "Pete": 300,
+//     "Mary": 250
+//   };
+
+//   function topSalary(salaries) {
+//       if (salaries.lenght == "0") {
+//           return null
+//       }
+//       Object.entries(salaries)
+      
+
+//   }
+
+
+//   topSalary(salaries)
+
+  //непонял как вывести наибольшее значение
+///////////////////////////////////////////////
+
+//Создайте дату////////////////////////////////
+
+// let date = new Date(2012, 2, 20, 3, 20)
+// alert (date)
+
+///////////////////////////////////////////////
+
+//Покажите день недели/////////////////////////
+// function getWeekDay(date) {
+//     let days = ['ВС', 'ПН', 'ВТ', 'СР', 'ЧТ', 'ПТ', 'СБ'];
+
+//     return days[date.getDay()]
+// }
+// let date = new Date(2014, 0, 3)
+
+// alert(getWeekDay(date))
+///////////////////////////////////////////////
+
+//День недели в европейской нумерации//////////
+// let date = new Date(2012, 0, 3); 
+
+// function getLocalDay(date) {
+   
+// let numDay = date.getDay()
+
+// if (numDay == "0"){
+//     numDay = 7
+// }
+// return numDay
+// }
+
+
+
+// alert( getLocalDay(date) );  
+///////////////////////////////////////////////
+
+//Какой день месяца был много дней назад?//////
+// function getDateAgo(date, days) {
+// date = day;
+// let value = date.setDate(date.getDate() - days)
+// return value
+// }
+
+// let day = new Date()
+
+// console.log(getDateAgo(day, 1))
+
+//не работает
+///////////////////////////////////////////////
+
+//Последнее число месяца?//////////////////////
+// function getLastDayOfMonth(year, month) {
+//     let date = new Date(year, month, 0);
+//     return date.getDate();
+// }
+
+// alert(getLastDayOfMonth(2012, 2))
+///////////////////////////////////////////////
