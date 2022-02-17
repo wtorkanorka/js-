@@ -279,23 +279,31 @@
 ///////////////////////////////////////////////
 
 //Максимальная зарплата////////////////////////
-// let salaries = {
-//     "John": 100,
-//     "Pete": 300,
-//     "Mary": 250
-//   };
+let salaries = {
+  John: 100,
+  Mary: 250,
+  Pete: 300,
+  Mar: 1000,
+};
 
-//   function topSalary(salaries) {
-//       if (salaries.lenght == "0") {
-//           return null
-//       }
-//       Object.entries(salaries)
+function topSalary(salaries) {
+  if (salaries.lenght === 0) {
+    return null;
+  }
 
-//   }
+  let salary = Object.entries(salaries);
 
-//   topSalary(salaries)
+  let max = salary.reduce((prev, item) => {
+    if (prev < item) {
+      return item;
+    } else {
+        return prev
+    }
+  });
+ return max[0]
+}
 
-//непонял как вывести наибольшее значение
+console.log(topSalary(salaries));
 ///////////////////////////////////////////////
 
 //Создайте дату////////////////////////////////
@@ -372,7 +380,7 @@
 
 // let seconds = (now.getHours()*60*60) + (now.getMinutes()*60) + (now.getSeconds()) //Сколько уже секунд прошло
 
-// let value = 86400 - seconds //В сутках 86400 сек. 
+// let value = 86400 - seconds //В сутках 86400 сек.
 
 // return console.log(value)
 
@@ -382,7 +390,6 @@
 
 ///////////////////////////////////////////////
 
-
 //Форматирование относительной даты////////////
 // function formatDate(date) {
 // let date = new Date()
@@ -390,9 +397,7 @@
 //   return console.log("прямо сейчас")
 // } else if(date)
 
-
 // }
-
 
 // formatDate(new Date())
 
@@ -416,7 +421,5 @@
 ///////////////////////////////////////////////
 
 //Исключить обратные ссылки////////////////////
-
-
 
 ///////////////////////////////////////////////
