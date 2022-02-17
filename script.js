@@ -291,16 +291,16 @@ function topSalary(salaries) {
     return null;
   }
 
-  let salary = Object.entries(salaries);
+  let salary = Object.entries(salaries); //пара: ключ - значение
 
-  let max = salary.reduce((prev, item) => {
-    if (prev < item) {
+  let max = salary.reduce((prev, item) => {  //НАчальный элемент, Следующий
+    if (prev < item) {  //Если начальный меньше чем следующий, вернуть наибольший
       return item;
     } else {
         return prev
     }
   });
- return max[0]
+ return max[0]  //выводит имя
 }
 
 console.log(topSalary(salaries));
